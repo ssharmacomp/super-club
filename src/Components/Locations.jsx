@@ -74,7 +74,7 @@ const Locations = () =>{
         from the favourite businesses in your city
      </Text>
      <HStack mx={"auto"} mt={"40px"} display={"block"} maxW={"650px"} className="carousel-wrap">
-    <Slider
+      <Slider
         dots={false}
         slidesToShow={5}
         slidesToScroll={5}
@@ -82,11 +82,8 @@ const Locations = () =>{
         centerPadding={"6px"}>
       {renderSlides()}
      </Slider>
-  
-    
      </HStack>
      </Box>
-     
     </Box>
   )
 }
