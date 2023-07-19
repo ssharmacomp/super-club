@@ -103,15 +103,38 @@ body{
       }
       &.contact{
         .contact-image{
+          animation: swing 5s ease;
+          animation-iteration-count: infinite;
+          animation-delay: 50s;
           img{
             margin: auto;
             max-width: 767px;
+            margin-left: -90px;
             user-select: none;
+          }
+        }
+        .btn-primary{
+          padding: 10px 25px;
+          line-height: 30px;
+          display: inline-block;
+          &:hover{
+            text-decoration: none;
           }
         }
       }
     }
   }
+}
+.city-scap{
+  background: url(./Images/cityscape.svg) center bottom no-repeat;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 300px;
+  animation: animCity 6s infinite ease-out;
+  /*animation-iteration-count: infinite;*/
+  
 }
 .btn-primary{
   background: $colorPrimary;
@@ -204,5 +227,41 @@ body{
     transform: rotate(360deg);
   }
 }
-
+@keyframes swing {
+  15% {
+  transform: translateX(5px);
+  }
+  30% {
+  transform: translateX(-5px);
+  }
+  50% {
+  transform: translateX(3px);
+  }
+  65% {
+  transform: translateX(-3px);
+  }
+  80% {
+  transform: translateX(2px);
+  }
+  100% {
+  transform: translateX(0);
+  }
+}
+@keyframes animCity {
+  0% {
+  transform: translateY(0px);
+  opacity: 0.5;
+  
+  }
+  
+  50%{
+    transform: translateY(20px);  
+    opacity: 1;
+    animation-delay: 5s;  
+  }
+  100% {
+  transform: translateY(0px);
+  opacity: 0.5;
+  }
+}
 
