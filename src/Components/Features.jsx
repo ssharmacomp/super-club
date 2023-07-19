@@ -2,7 +2,8 @@ import FeaturesImg from"../Images/Features.svg";
 import {
   Box,
   Heading,
-  HStack
+  HStack,
+  Text
 } from "@chakra-ui/react";
 const Features = () =>{
   return(
@@ -16,8 +17,12 @@ const Features = () =>{
       <Heading as="h1" className="heading" mb={2}>
         Get the<br/>best
         </Heading>
+        <Text>
+      On every penny spent on . . .
+      </Text>
       </Box>    
-      <Box alignItems={"center"} display={"flex"} userSelect={"none"}>
+     
+      <Box alignItems={"center"} display={"flex"} userSelect={"none"} className="feature-image">
         <img margin={"auto"} width={"auto"} src={FeaturesImg}/>
       </Box>   
     </HStack>

@@ -58,6 +58,12 @@ body{
       }
       &.features{
         flex-direction: row;
+        .feature-image{
+          margin-right: 30px;
+          img{
+            max-width: 90%;
+          }
+        }
       }
       &.locations{
         flex-direction: row;
@@ -121,21 +127,53 @@ body{
             text-decoration: none;
           }
         }
+        .city-scap{
+          background: transparent url(./Images/cityscape.svg) center bottom no-repeat;
+          position: absolute;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          height: 300px;
+          animation: animCity 6s infinite ease-out;
+          /*animation-iteration-count: infinite;*/
+        }
+      }
+    }
+    .scrolling-navigation{
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      right: 30px;
+      display: flex;
+      align-items: center;
+      color: #fff;
+      flex-direction: column;
+      .nav-wrap{
+        margin: auto;
+        display: block;
+        a{
+          display: block;
+          color: transparent;
+          width: 20px;
+          height: 20px;
+          background: transparent;
+          border: #CCCCCC solid 1px;
+          border-radius: 100%;
+          clear: both;
+          position: static;
+          margin: 15px 0;
+          position: relative;
+          z-index: 2;
+          &.active{
+            background: #ccc;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+          }
+        }
       }
     }
   }
 }
-.city-scap{
-  background: url(./Images/cityscape.svg) center bottom no-repeat;
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  height: 300px;
-  animation: animCity 6s infinite ease-out;
-  /*animation-iteration-count: infinite;*/
-  
-}
+
 .btn-primary{
   background: $colorPrimary;
   color:#fff!important;
@@ -190,7 +228,6 @@ body{
 .locations .slick-prev, .locations .slick-next{
   top: calc(50% - 25px);
 }
-
 
 @media (min-height: 30em) {
   main { scroll-snap-type: y mandatory;
