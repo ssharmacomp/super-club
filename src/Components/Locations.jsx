@@ -58,7 +58,7 @@ const Locations = () =>{
   return(
     <Box 
     className="block-section locations"
-    id="features-section"
+    id="locations-section"
     color={"#fff"}
     flexDirection={"row"}
     >
