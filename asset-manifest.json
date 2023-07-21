@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/super-club/static/css/main.393a5e8b.css",
+    "main.js": "/super-club/static/js/main.9574b4d1.js",
+    "static/js/787.6a3f855e.chunk.js": "/super-club/static/js/787.6a3f855e.chunk.js",
+    "static/media/Home-bg.jpg": "/super-club/static/media/Home-bg.39969e1034a0cff9e5f9.jpg",
+    "static/media/Features.svg": "/super-club/static/media/Features.49ac2afd80fe954f578277d997bd5c40.svg",
+    "static/media/contact-icon.svg": "/super-club/static/media/contact-icon.2550a29bb5ec7d9afd980d5551faf9d0.svg",
+    "static/media/udaipur.png": "/super-club/static/media/udaipur.5654c4b418ed5fd1638d.png",
+    "static/media/jaipur.png": "/super-club/static/media/jaipur.393ab832d92013990401.png",
+    "static/media/bikaner.png": "/super-club/static/media/bikaner.76870ac8152329cde522.png",
+    "static/media/jodhpur.png": "/super-club/static/media/jodhpur.440b5096ca3afcaa0ba3.png",
+    "static/media/laknau.png": "/super-club/static/media/laknau.1051295a541965f18b46.png",
+    "static/media/locationBG.svg": "/super-club/static/media/locationBG.7602853ef8f0479b0c252f9d4f0551f0.svg",
+    "static/media/poppins-light-webfont.woff": "/super-club/static/media/poppins-light-webfont.0b47c2be20747193d284.woff",
+    "static/media/poppins-extrabold-webfont.woff": "/super-club/static/media/poppins-extrabold-webfont.82e1db650bc9700d8da7.woff",
+    "static/media/poppins-bold-webfont.woff": "/super-club/static/media/poppins-bold-webfont.2da6502cdd3b25d10aac.woff",
+    "static/media/cityscape.svg": "/super-club/static/media/cityscape.92aa3e6fc3cab324b0f2e0703db11ce6.svg",
+    "static/media/poppins-regular-webfont.woff": "/super-club/static/media/poppins-regular-webfont.4f4c04805158af9ead31.woff",
+    "static/media/poppins-light-webfont.woff2": "/super-club/static/media/poppins-light-webfont.871df8e5eda186d3e670.woff2",
+    "static/media/poppins-extrabold-webfont.woff2": "/super-club/static/media/poppins-extrabold-webfont.06261c04adb524dc2704.woff2",
+    "static/media/poppins-bold-webfont.woff2": "/super-club/static/media/poppins-bold-webfont.75589c745dc2d24af7bc.woff2",
+    "static/media/poppins-regular-webfont.woff2": "/super-club/static/media/poppins-regular-webfont.afef31205db762e97abd.woff2",
+    "static/media/slick.svg": "/super-club/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/super-club/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/super-club/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/super-club/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/home-arc.svg": "/super-club/static/media/home-arc.c61ca8d44cbfae9afbe7.svg",
+    "index.html": "/super-club/index.html",
+    "main.393a5e8b.css.map": "/super-club/static/css/main.393a5e8b.css.map",
+    "main.9574b4d1.js.map": "/super-club/static/js/main.9574b4d1.js.map",
+    "787.6a3f855e.chunk.js.map": "/super-club/static/js/787.6a3f855e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.393a5e8b.css",
+    "static/js/main.9574b4d1.js"
+  ]
+}
